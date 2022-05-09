@@ -51,7 +51,7 @@ function showBackToTopButtonOnScroll() {
   if (scrollY > 550) {
     backToTopButton.classList.add('show')
   } else {
-    navigation.classList.remove('show')
+    backToTopButton.classList.remove('show')
   }
 }
 function openMenu() {
